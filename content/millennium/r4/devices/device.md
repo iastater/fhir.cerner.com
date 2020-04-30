@@ -62,7 +62,7 @@ Search for Devices that meet supplied query parameters:
 
 #### Request
 
-    GET https://fhir-ehr.sandboxcerner.com/r4/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Device?patient=4478007
+    GET https://fhir-ehr-code.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Device?patient=12724066
 
 #### Response
 
@@ -91,7 +91,7 @@ List an individual Device by its id:
 
 #### Request
 
-    GET https://fhir-ehr.sandboxcerner.com/r4/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Device/15577765
+    GET https://fhir-ehr-code.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Device/31539245
 
 #### Response
 

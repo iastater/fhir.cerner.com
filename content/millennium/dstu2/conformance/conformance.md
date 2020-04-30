@@ -37,7 +37,7 @@ Authorization is not required.
 
 #### Request
 
-    GET https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/metadata
+    GET https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/metadata
 
 #### Response
 
@@ -50,7 +50,7 @@ Authorization is not required.
 
 #### Request
 
-    GET https://fhir-ehr.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/metadata?_format=json
+    GET https://fhir-ehr-code.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/metadata?_format=json
 
 #### Response
 
