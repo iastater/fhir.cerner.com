@@ -1347,6 +1347,39 @@ p code {
   }
 }
 
+.request-button {
+  cursor: pointer;
+  background-color: #297fc7;
+  color: #fff;
+  font-size: 16px;
+  padding: 15px;
+  border-radius: 5px;
+  border-width: 0px;
+}
+
+.request-button:hover:not([disabled]) {
+  text-decoration: none;
+  background-color: #3088d0;
+}
+
+.request-button:disabled,
+.request-button[disabled] {
+  cursor: default;
+  background-color: #3088d0b4;
+}
+
+.example-response-toggle {
+  display: inline;
+  color: #767676;
+  margin-left: 15px
+}
+
+.example-response-toggle:hover {
+  cursor: pointer;
+  text-decoration: none;
+  color: #4183C4;
+}
+
 /* @end */
 
 /*------------------------------------------------------------------------------
@@ -1373,6 +1406,12 @@ pre {
 
 ul + pre {
   margin-top: 1em;
+}
+
+pre.body-response {
+  height: 500px;
+  min-height: 200px;
+  resize: vertical;
 }
 
 pre span.comment {color: #aaa;}
@@ -1568,12 +1607,18 @@ pre span.comment {color: #aaa;}
   margin: 0 3px;
 }
 
-#table-failure-message {
+.failure-message {
+  margin-top: 1em;
   padding: 12px;
   border: 1px solid transparent;
   border-radius: 4px;
   background-color: #FFF9E6;
   border-color: #FFE79D;
+}
+
+.failure-message p {
+  display: inline;
+  margin: 0;
 }
 
 .hide {
