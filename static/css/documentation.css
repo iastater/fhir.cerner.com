@@ -1362,8 +1362,7 @@ p code {
   background-color: #3088d0;
 }
 
-.request-button:disabled,
-.request-button[disabled] {
+.request-button:disabled, .request-button[disabled] {
   cursor: default;
   background-color: #3088d0b4;
 }
