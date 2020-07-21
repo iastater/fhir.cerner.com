@@ -45,8 +45,8 @@ Authorization is not required.
 
 #### Request
 
-    curl -i -H "Accept: application/json+fhir" "https://fhir-ehr.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/metadata?_format=json"
+    curl -i -H "Accept: application/json+fhir" "https://fhir-ehr.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/metadata"
 
-<%= RequestButton.get(:dstu2_closed, 'metadata?_format=json', 200, :dstu2_auth_metadata) %>
+<%= RequestButton.get(:dstu2_closed, 'metadata', 200, :dstu2_auth_metadata) %>
 
 [`:serviceRootURL/metadata`]: ../../#service-root-url
