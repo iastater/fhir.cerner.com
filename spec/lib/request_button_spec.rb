@@ -3,18 +3,18 @@
 require 'request_button'
 
 describe RequestButton do
+
   # Used to test the request button based on a specific version, URL, and accept header.
   #
   # Example:
-  # context 'when version is :version' do
-  #   include_examples(
-  #     'generates the button HTML based off of the provided parameters',
-  #     :version,
-  #     version_url,
-  #     version_header
-  #   )
-  # end
-  #
+  #   context 'when version is :version' do
+  #     include_examples(
+  #       'generates the button HTML based off of the provided parameters',
+  #       :version,
+  #       version_url,
+  #       version_header
+  #     )
+  #   end
   shared_examples 'generates the button HTML based off of the provided parameters' do |version, url, header|
     subject(:get) { RequestButton.get(version, endpoint, example_status, example_json) }
 
