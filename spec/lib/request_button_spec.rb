@@ -24,7 +24,7 @@ describe RequestButton do
       "<a class=\"example-response-toggle hide\" onclick=\"#{onclick_anchor}\">Show Example Response</a></div>\n"\
       "<div><h4>Example Response</h4>#{status}#{response}#{disclaimer}</div>"
     end
-    let(:button_id) { SecureRandom.uuid }
+    let(:button_id) { 123 }
     let(:onclick_button) do
       "makeRequest('#{url}#{endpoint}', '#{header}', this)"
     end
