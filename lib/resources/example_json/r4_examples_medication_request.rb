@@ -40,6 +40,14 @@ module Cerner
             "ingredient": [
               {
                 "itemCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/synonym",
+                      "code": "4354245",
+                      "display": "Magic Mouthwash",
+                      "userSelected": true
+                    }
+                  ],
                   "text": "Magic Mouthwash"
                 },
                 "strength": {
@@ -59,6 +67,12 @@ module Cerner
                       "code": "466588",
                       "display": "Aluminum Hydroxide / Magnesium Hydroxide / Simethicone",
                       "userSelected": false
+                    },
+                    {
+                      "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/synonym",
+                      "code": "2748557",
+                      "display": "Al hydroxide/Mg hydroxide/simethicone",
+                      "userSelected": true
                     }
                   ],
                   "text": "Al hydroxide/Mg hydroxide/simethicone"
@@ -72,6 +86,12 @@ module Cerner
                       "code": "3498",
                       "display": "Diphenhydramine",
                       "userSelected": false
+                    },
+                    {
+                      "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/synonym",
+                      "code": "2756044",
+                      "display": "diphenhydrAMINE",
+                      "userSelected": true
                     }
                   ],
                   "text": "diphenhydrAMINE"
@@ -85,6 +105,12 @@ module Cerner
                       "code": "6387",
                       "display": "Lidocaine",
                       "userSelected": false
+                    },
+                    {
+                      "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/synonym",
+                      "code": "2762111",
+                      "display": "lidocaine topical",
+                      "userSelected": true
                     }
                   ],
                   "text": "lidocaine topical"
@@ -230,6 +256,14 @@ module Cerner
                 "ingredient": [
                   {
                     "itemCodeableConcept": {
+                      "coding": [
+                        {
+                          "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/synonym",
+                          "code": "4354245",
+                          "display": "Magic Mouthwash",
+                          "userSelected": true
+                        }
+                      ],
                       "text": "Magic Mouthwash"
                     },
                     "strength": {
@@ -249,6 +283,12 @@ module Cerner
                           "code": "466588",
                           "display": "Aluminum Hydroxide / Magnesium Hydroxide / Simethicone",
                           "userSelected": false
+                        },
+                        {
+                            "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/synonym",
+                            "code": "2748557",
+                            "display": "Al hydroxide/Mg hydroxide/simethicone",
+                            "userSelected": true
                         }
                       ],
                       "text": "Al hydroxide/Mg hydroxide/simethicone"
@@ -275,6 +315,12 @@ module Cerner
                           "code": "6387",
                           "display": "Lidocaine",
                           "userSelected": false
+                        },
+                        {
+                          "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/synonym",
+                          "code": "2762111",
+                          "display": "lidocaine topical",
+                          "userSelected": true
                         }
                       ],
                       "text": "lidocaine topical"
@@ -407,7 +453,21 @@ module Cerner
             ],
             "reportedBoolean": true,
             "medicationCodeableConcept": {
-              "text": "Misc Prescription (Freetext Medication)"
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "722",
+                  "display": "Amoxapine",
+                  "userSelected": false
+                },
+                {
+                  "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/synonym",
+                  "code": "2749131",
+                  "display": "amoxapine",
+                  "userSelected": true
+                }
+              ],
+              "text": "Amoxapine"
             },
             "subject": {
               "reference": "Patient/1316024",
